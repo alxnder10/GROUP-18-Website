@@ -46,12 +46,12 @@
       "id": 3,
       "name": "Swayam Bhoir",
       "rollNo": "11001",
-      "role": "",
+      "role": "Developer",
       "bio": "",
       "image": "/images/Swayam.jpeg",
       "socials": {
-        "github": "",
-        "linkedin": ""
+        "github": "https://github.com/swayam45-crypto",
+        "linkedin": "https://www.linkedin.com/in/swayam-bhoir-9b4695385/"
       }
     },
     {
