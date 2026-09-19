@@ -1,0 +1,142 @@
+{
+  "about": {
+    "lead": "Ten minds. One team. Zero shortcuts.",
+    "body": "We're the people behind GROUP 18 a team of developers, designers, and ground-support crew who turn late-night ideas into things that actually ship. No corporate fluff, just work we're proud to put our names on."
+  },
+  "stats": [
+    {
+      "value": "10",
+      "label": "Members"
+    },
+    {
+      "value": "100%",
+      "label": "Love for community"
+    },
+    {
+      "value": "100%",
+      "label": "Hands-On"
+    }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "name": "Om Thakur",
+      "rollNo": "11058",
+      "role": "Developer",
+      "bio": "Love building intelligent software systems",
+      "image": "/images/Om.jpeg",
+      "socials": {
+        "github": "https://github.com/omat100",
+        "linkedin": "https://www.linkedin.com/in/om-thakur-86479a3b6/"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Mathwell",
+      "rollNo": "",
+      "role": "",
+      "bio": "",
+      "image": "/images/Mathwell.jpeg",
+      "socials": {
+        "github": "",
+        "linkedin": ""
+      }
+    },
+    {
+      "id": 3,
+      "name": "",
+      "rollNo": "",
+      "role": "",
+      "bio": "",
+      "image": "",
+      "socials": {
+        "github": "",
+        "linkedin": ""
+      }
+    },
+    {
+      "id": 4,
+      "name": "",
+      "rollNo": "",
+      "role": "",
+      "bio": "",
+      "image": "",
+      "socials": {
+        "github": "",
+        "linkedin": ""
+      }
+    },
+    {
+      "id": 5,
+      "name": "",
+      "rollNo": "",
+      "role": "",
+      "bio": "",
+      "image": "",
+      "socials": {
+        "github": "",
+        "linkedin": ""
+      }
+    },
+    {
+      "id": 6,
+      "name": "",
+      "rollNo": "",
+      "role": "",
+      "bio": "",
+      "image": "",
+      "socials": {
+        "github": "",
+        "linkedin": ""
+      }
+    },
+    {
+      "id": 7,
+      "name": "",
+      "rollNo": "",
+      "role": "",
+      "bio": "",
+      "image": "",
+      "socials": {
+        "github": "",
+        "linkedin": ""
+      }
+    },
+    {
+      "id": 8,
+      "name": "",
+      "rollNo": "",
+      "role": "",
+      "bio": "",
+      "image": "",
+      "socials": {
+        "github": "",
+        "linkedin": ""
+      }
+    },
+    {
+      "id": 9,
+      "name": "",
+      "rollNo": "",
+      "role": "",
+      "bio": "",
+      "image": "",
+      "socials": {
+        "github": "",
+        "linkedin": ""
+      }
+    },
+    {
+      "id": 10,
+      "name": "",
+      "rollNo": "",
+      "role": "",
+      "bio": "",
+      "image": "",
+      "socials": {
+        "github": "",
+        "linkedin": ""
+      }
+    }
+  ]
+}
