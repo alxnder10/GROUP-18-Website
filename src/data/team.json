@@ -20,14 +20,14 @@
   "members": [
     {
       "id": 1,
-      "name": "Om Thakur",
-      "rollNo": "11058",
+      "name": "Lance Dias",
+      "rollNo": "11138",
       "role": "Developer",
-      "bio": "Love building intelligent software systems",
-      "image": "/images/Om.jpeg",
+      "bio": "Big fan of tech and the world around it",
+      "image": "/images/Lance.jpeg",
       "socials": {
-        "github": "https://github.com/omat100",
-        "linkedin": "https://www.linkedin.com/in/om-thakur-86479a3b6/"
+        "github": "https://github.com/alxnder10",
+        "linkedin": "https://www.linkedin.com/in/lancedias10/"
       }
     },
     {
@@ -47,7 +47,7 @@
       "name": "Swayam Bhoir",
       "rollNo": "11001",
       "role": "Developer",
-      "bio": "",
+      "bio": "If machines can learn why can't humans",
       "image": "/images/Swayam.jpeg",
       "socials": {
         "github": "https://github.com/swayam45-crypto",
@@ -56,22 +56,22 @@
     },
     {
       "id": 4,
-      "name": "Lance Dias",
-      "rollNo": "11138",
+      "name": "Om Thakur",
+      "rollNo": "11058",
       "role": "Developer",
-      "bio": "Big fan of tech and the world around it",
-      "image": "/images/Lance.jpeg",
+      "bio": "Love building intelligent software systems",
+      "image": "/images/Om.jpeg",
       "socials": {
-        "github": "https://github.com/alxnder10",
-        "linkedin": "https://www.linkedin.com/in/lancedias10/"
+        "github": "https://github.com/omat100",
+        "linkedin": "https://www.linkedin.com/in/om-thakur-86479a3b6/"
       }
     },
     {
       "id": 5,
-      "name": "",
-      "rollNo": "",
-      "role": "",
-      "bio": "",
+      "name": "Aaron Santu",
+      "rollNo": "11054",
+      "role": "Teacher",
+      "bio": "I like to teach others",
       "image": "",
       "socials": {
         "github": "",
@@ -80,10 +80,10 @@
     },
     {
       "id": 6,
-      "name": "",
-      "rollNo": "",
-      "role": "",
-      "bio": "",
+      "name": "Ayaan Mulla",
+      "rollNo": "11161",
+      "role": "Ground Worker",
+      "bio": "Sports Person Love to Lift Weight and fitness enthusiast",
       "image": "",
       "socials": {
         "github": "",
@@ -92,23 +92,23 @@
     },
     {
       "id": 7,
-      "name": "",
-      "rollNo": "",
-      "role": "",
-      "bio": "",
-      "image": "",
+      "name": "Bhoomi Nalawade",
+      "rollNo": "11106",
+      "role": "Ground support",
+      "bio": "Love helping others",
+      "image": "/images/Bhmi.jpeg",
       "socials": {
-        "github": "",
-        "linkedin": ""
+        "github": "https://github.com/vinhthrong-ctrl",
+        "linkedin": "https://www.linkedin.com/in/bhoomi-nalawade-70088539a"
       }
     },
     {
       "id": 8,
-      "name": "",
-      "rollNo": "",
-      "role": "",
-      "bio": "",
-      "image": "",
+      "name": "Asher Lopes",
+      "rollNo": "11033",
+      "role": "Ground support",
+      "bio": "a simple passionate person",
+      "image": "/images/Asher.jpeg",
       "socials": {
         "github": "",
         "linkedin": ""
