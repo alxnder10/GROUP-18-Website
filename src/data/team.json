@@ -32,13 +32,13 @@
     },
     {
       "id": 2,
-      "name": "Mathwell",
-      "rollNo": "",
-      "role": "",
-      "bio": "",
+      "name": "Mathwel Dbritto",
+      "rollNo": "11010",
+      "role": "Ground Worker",
+      "bio": "Love helping others",
       "image": "/images/Mathwell.jpeg",
       "socials": {
-        "github": "",
+        "github": "https://github.com/dbrittomathwel-crypto",
         "linkedin": ""
       }
     },
