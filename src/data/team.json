@@ -56,14 +56,14 @@
     },
     {
       "id": 4,
-      "name": "",
-      "rollNo": "",
-      "role": "",
-      "bio": "",
-      "image": "",
+      "name": "Lance Dias",
+      "rollNo": "11138",
+      "role": "Developer",
+      "bio": "Big fan of tech and the world around it",
+      "image": "/images/Lance.jpeg",
       "socials": {
-        "github": "",
-        "linkedin": ""
+        "github": "https://github.com/alxnder10",
+        "linkedin": "https://www.linkedin.com/in/lancedias10/"
       }
     },
     {
