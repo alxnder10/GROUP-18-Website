@@ -59,6 +59,7 @@ function App() {
           <a href="#home">HOME</a>
           <a href="#about">ABOUT</a>
           <a href="#team">TEAM</a>
+          <a href="#apps">APPS</a>
         </div>
 
         {/* <div className="nav-status">
@@ -282,6 +283,101 @@ function App() {
               </div>
             );
           })}
+        </div>
+
+      </section>
+        {/* APPS & PROJECTS */}
+      <section className="apps-section" id="apps">
+
+        <div className="apps-top">
+          <span>04</span>
+          <span>APPS & PROJECTS</span>
+        </div>
+
+
+        <div className="apps-header">
+
+          <div>
+
+            <p className="apps-eyebrow">
+              WHAT WE BUILD
+            </p>
+
+            <h2>
+              OUR
+              <br />
+              <span>APP.</span>
+            </h2>
+
+          </div>
+
+
+          <p className="apps-intro">
+            Explore applications and digital experiences
+            created by the members of GROUP.18.
+          </p>
+
+        </div>
+
+
+        {/* EXAMSAATHI */}
+
+        <div className="apps-list">
+
+          <article className="app-card">
+
+            <div className="app-number">
+              01
+            </div>
+
+
+            <div className="app-content">
+
+              <div className="app-meta">
+                EDUCATION APPLICATION
+              </div>
+
+              <h3>
+                EXAMSAATHI
+              </h3>
+
+              <p>
+                A student-focused application built to
+                make exam preparation simpler, smarter
+                and more accessible.
+              </p>
+
+
+              <div className="app-buttons">
+
+                <a
+                  href="#"
+                  className="app-button"
+                >
+                  VIEW APP ↗
+                </a>
+
+
+                <a
+                   href="/apps/ExamSaathi.apk"
+                   className="app-button app-button-outline"
+                   download="ExamSaathi.apk"
+            
+                >
+                  DOWNLOAD ↓
+                </a>
+
+              </div>
+
+            </div>
+
+
+            <div className="app-status">
+              AVAILABLE
+            </div>
+
+          </article>
+
         </div>
 
       </section>
