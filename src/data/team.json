@@ -44,11 +44,11 @@
     },
     {
       "id": 3,
-      "name": "",
-      "rollNo": "",
+      "name": "Swayam Bhoir",
+      "rollNo": "11001",
       "role": "",
       "bio": "",
-      "image": "",
+      "image": "/images/Swayam.jpeg",
       "socials": {
         "github": "",
         "linkedin": ""
