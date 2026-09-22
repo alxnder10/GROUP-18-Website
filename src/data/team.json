@@ -116,13 +116,13 @@
     },
     {
       "id": 9,
-      "name": "",
-      "rollNo": "",
-      "role": "",
-      "bio": "",
-      "image": "",
+      "name": "Shawn Fernandes",
+      "rollNo": "11142",
+      "role": "Full Stack Developer",
+      "bio": "Passionate about building modern and scalable web applications",
+      "image": "/images/Shawn.jpeg",
       "socials": {
-        "github": "",
+        "github": "https://github.com/shawn-bro",
         "linkedin": ""
       }
     },
