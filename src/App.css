@@ -1055,11 +1055,23 @@ a {
   );
 }
 
-.partner-content {
+.partner-layout {
   position: relative;
 
   z-index: 5;
 
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 80px;
+}
+
+.partner-content {
   max-width: 900px;
 }
 
@@ -1070,16 +1082,18 @@ a {
 
   justify-content: center;
 
-  width: 76px;
-  height: 76px;
+  flex-shrink: 0;
 
-  margin-bottom: 32px;
+  width: 200px;
+  height: 200px;
 
-  padding: 10px;
+  padding: 28px;
 
   background: #ffffff;
 
-  border-radius: 16px;
+  border-radius: 28px;
+
+  transition-delay: 0.15s;
 }
 
 .partner-logo-wrap img {
@@ -1406,6 +1420,23 @@ a {
     margin-top: 48px;
 
     padding-top: 28px;
+  }
+
+  .partner-layout {
+    flex-direction: column-reverse;
+
+    align-items: flex-start;
+
+    gap: 32px;
+  }
+
+  .partner-logo-wrap {
+    width: 100px;
+    height: 100px;
+
+    padding: 16px;
+
+    border-radius: 20px;
   }
 
   .partner-footer {

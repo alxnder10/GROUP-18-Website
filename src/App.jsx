@@ -302,7 +302,59 @@ function App() {
 
         <div className="partner-bg" aria-hidden="true"></div>
 
-        <div className="partner-content">
+        <div className="partner-layout">
+
+          <div className="partner-content">
+            <span className="reveal">04 — PARTNER NGO</span>
+
+            <h2 className="reveal">
+              IN PARTNERSHIP
+              <br />
+              WITH {teamData.partner.name}.
+            </h2>
+
+            <p className="about-lead reveal">{teamData.partner.tagline}</p>
+
+            <p className="about-text reveal">{teamData.partner.body}</p>
+
+            <div className="partner-programs reveal">
+              {teamData.partner.programs.map((program) => (
+                <span className="program-chip" key={program}>
+                  {program}
+                </span>
+              ))}
+            </div>
+
+            <div className="partner-footer reveal">
+              <div className="about-stats">
+                <div className="stat">
+                  <span className="stat-value">{teamData.partner.founded}</span>
+                  <span className="stat-label">Founded</span>
+                </div>
+
+                <div className="stat">
+                  <span className="stat-value">{teamData.partner.location}</span>
+                  <span className="stat-label">Based In</span>
+                </div>
+
+                <div className="stat">
+                  <span className="stat-value">{teamData.partner.programs.length}</span>
+                  <span className="stat-label">Focus Areas</span>
+                </div>
+              </div>
+
+              <a
+                href={teamData.partner.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hero-button partner-button"
+              >
+                VISIT SPARKLING WINGS
+                <span>↗</span>
+              </a>
+            </div>
+          </div>
+
           {teamData.partner.logo && (
             <div className="partner-logo-wrap reveal">
               <img
@@ -312,54 +364,6 @@ function App() {
             </div>
           )}
 
-          <span className="reveal">04 — PARTNER NGO</span>
-
-          <h2 className="reveal">
-            IN PARTNERSHIP
-            <br />
-            WITH {teamData.partner.name}.
-          </h2>
-
-          <p className="about-lead reveal">{teamData.partner.tagline}</p>
-
-          <p className="about-text reveal">{teamData.partner.body}</p>
-
-          <div className="partner-programs reveal">
-            {teamData.partner.programs.map((program) => (
-              <span className="program-chip" key={program}>
-                {program}
-              </span>
-            ))}
-          </div>
-
-          <div className="partner-footer reveal">
-            <div className="about-stats">
-              <div className="stat">
-                <span className="stat-value">{teamData.partner.founded}</span>
-                <span className="stat-label">Founded</span>
-              </div>
-
-              <div className="stat">
-                <span className="stat-value">{teamData.partner.location}</span>
-                <span className="stat-label">Based In</span>
-              </div>
-
-              <div className="stat">
-                <span className="stat-value">{teamData.partner.programs.length}</span>
-                <span className="stat-label">Focus Areas</span>
-              </div>
-            </div>
-
-            <a
-              href={teamData.partner.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hero-button partner-button"
-            >
-              VISIT SPARKLING WINGS
-              <span>↗</span>
-            </a>
-          </div>
         </div>
 
       </section>
