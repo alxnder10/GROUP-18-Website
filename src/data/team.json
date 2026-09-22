@@ -157,6 +157,30 @@
     ],
     "url": "https://sparklingwingsngo.org/"
   },
+  "roadmap": {
+    "done": [
+      {
+        "title": "GROUP.18 Website",
+        "note": "Live and shipped"
+      }
+    ],
+    "inProgress": [
+      {
+        "title": "NGO Website",
+        "note": "Building the site for our partner, Sparkling Wings"
+      }
+    ],
+    "planned": [
+      {
+        "title": "Ground Work Kickoff",
+        "note": "25 Sept 2026"
+      },
+      {
+        "title": "Weekly Ground Work",
+        "note": "Every Saturday through 28 Nov 2026"
+      }
+    ]
+  },
   "contact": {
     "email": "",
     "instagram": "",

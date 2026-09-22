@@ -1201,6 +1201,165 @@ a {
 
 
 /* =========================
+   PROJECT UPDATES
+========================= */
+
+.updates-section {
+  position: relative;
+
+  width: 100%;
+
+  padding: 150px 7vw;
+
+  overflow: hidden;
+
+  background: #000000;
+
+  color: #ffffff;
+}
+
+.updates-bg {
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 0;
+
+  pointer-events: none;
+
+  background: radial-gradient(
+    ellipse 60% 50% at 85% 0%,
+    rgba(255, 255, 255, 0.06) 0%,
+    transparent 60%
+  );
+}
+
+.updates-content {
+  position: relative;
+
+  z-index: 5;
+}
+
+.updates-content span {
+  font-size: 10px;
+
+  letter-spacing: 0.2em;
+
+  color: #888888;
+}
+
+.updates-content h2 {
+  margin-top: 30px;
+  margin-bottom: 70px;
+
+  font-size: clamp(40px, 6vw, 90px);
+
+  line-height: 0.92;
+
+  letter-spacing: -0.05em;
+
+  color: #ffffff;
+
+  transition-delay: 0.1s;
+}
+
+.updates-columns {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 1px;
+
+  background: rgba(255, 255, 255, 0.1);
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.updates-column {
+  background: #050505;
+
+  padding: 32px;
+}
+
+.updates-column-header {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin-bottom: 28px;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  letter-spacing: 0.15em;
+
+  color: #cccccc;
+}
+
+.updates-dot {
+  width: 8px;
+  height: 8px;
+
+  flex-shrink: 0;
+
+  border-radius: 50%;
+
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.updates-dot-done {
+  background: #ffffff;
+
+  border-color: #ffffff;
+}
+
+.updates-dot-progress {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.updates-dot-planned {
+  background: transparent;
+
+  border-style: dashed;
+}
+
+.updates-item {
+  padding: 18px 0;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.updates-item:first-of-type {
+  border-top: none;
+
+  padding-top: 0;
+}
+
+.updates-item h4 {
+  font-size: 15px;
+
+  font-weight: 700;
+
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+}
+
+.updates-item p {
+  margin-top: 6px;
+
+  font-size: 12px;
+
+  line-height: 1.6;
+
+  color: #888888;
+}
+
+
+/* =========================
    CONTACT
 ========================= */
 
@@ -1408,8 +1567,17 @@ a {
   .about-section,
   .team-section,
   .partner-section,
+  .updates-section,
   .contact-section {
     padding: 100px 6vw;
+  }
+
+  .updates-content h2 {
+    margin-bottom: 44px;
+  }
+
+  .updates-columns {
+    grid-template-columns: 1fr;
   }
 
   .contact-footer {

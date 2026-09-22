@@ -68,6 +68,7 @@ function App() {
           <a href="#about">ABOUT</a>
           <a href="#team">TEAM</a>
           <a href="#partner">PARTNER</a>
+          <a href="#updates">UPDATES</a>
           <a href="#contact">CONTACT</a>
         </div>
 
@@ -369,13 +370,75 @@ function App() {
       </section>
 
 
+      {/* PROJECT UPDATES */}
+      <section className="updates-section" id="updates">
+
+        <div className="updates-bg" aria-hidden="true"></div>
+
+        <div className="updates-content">
+          <span className="reveal">05 — PROJECT UPDATES</span>
+
+          <h2 className="reveal">
+            WHAT WE'RE
+            <br />
+            WORKING ON.
+          </h2>
+
+          <div className="updates-columns">
+            <div className="updates-column reveal">
+              <div className="updates-column-header">
+                <span className="updates-dot updates-dot-done"></span>
+                DONE
+              </div>
+
+              {teamData.roadmap.done.map((item) => (
+                <div className="updates-item" key={item.title}>
+                  <h4>{item.title}</h4>
+                  <p>{item.note}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="updates-column reveal">
+              <div className="updates-column-header">
+                <span className="updates-dot updates-dot-progress"></span>
+                IN PROGRESS
+              </div>
+
+              {teamData.roadmap.inProgress.map((item) => (
+                <div className="updates-item" key={item.title}>
+                  <h4>{item.title}</h4>
+                  <p>{item.note}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="updates-column reveal">
+              <div className="updates-column-header">
+                <span className="updates-dot updates-dot-planned"></span>
+                PLANNED
+              </div>
+
+              {teamData.roadmap.planned.map((item) => (
+                <div className="updates-item" key={item.title}>
+                  <h4>{item.title}</h4>
+                  <p>{item.note}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
       {/* CONTACT */}
       <section className="contact-section" id="contact">
 
         <div className="contact-bg" aria-hidden="true"></div>
 
         <div className="contact-content">
-          <span className="reveal">05 — CONTACT</span>
+          <span className="reveal">06 — CONTACT</span>
 
           <h2 className="reveal">
             LET'S BUILD
