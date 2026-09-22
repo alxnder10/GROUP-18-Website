@@ -20,33 +20,8 @@ npm run preview   # preview the production build locally
 npm run lint      # run ESLint
 ```
 
-## Project Structure
+## Documentation
 
-```
-src/
-  App.jsx                 # all page sections
-  App.css                 # all page styles, organized by section
-  index.css                # global reset / base styles
-  data/team.json           # about copy, stats, team roster, partner NGO, contact info
-  components/
-    FaultyTerminal.jsx     # WebGL (ogl) shader background used in the hero
-    FaultyTerminal.css
-public/
-  images/                  # team member photos
-```
+Full docs — project structure, every section explained, the `team.json` content schema, styling conventions, and how to add a new section — live in **[DOCUMENTATION.md](DOCUMENTATION.md)**.
 
-Team, About, Partner and Contact content is data-driven from `src/data/team.json` — edit that file to update copy, add team members, or fill in contact details without touching component code.
-
-## Sections
-
-1. **Hero** — full-viewport `FaultyTerminal` WebGL background, "WE ARE GROUP.18" intro, CTA to the Team section.
-2. **About** — who GROUP.18 is, stats bar.
-3. **Team** — grid of ~10 members (name, roll no, role, bio, photo, socials). Empty slots render as open placeholders until filled in `team.json`.
-4. **Partner NGO** — spotlight on our community partner, [Sparkling Wings](https://sparklingwingsngo.org/), a Mumbai-based NGO focused on education, women empowerment, animal welfare, environmental protection, and poverty alleviation.
-5. **Contact** — email and social links, sourced from `team.json` (renders a placeholder until real contact details are added).
-
-## Recent Changes
-
-- Removed the "Apps & Projects" section (ExamSaathi download card) and its nav link — not currently part of the site's scope.
-- Added the **Partner NGO** section spotlighting Sparkling Wings, with program tags, quick stats, and a link to their site.
-- Added the **Contact** section with an email link and optional social icons (GitHub / Instagram / LinkedIn), driven by `team.json`.
+Quick summary: the site has six sections (Hero, About, Team, Partner NGO, Project Updates, Contact), and almost all content — team roster, partner info, roadmap, contact details — is data-driven from `src/data/team.json`, so most updates don't require touching component code.
