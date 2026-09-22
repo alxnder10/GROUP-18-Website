@@ -19,6 +19,14 @@ function IconLinkedin(props) {
   );
 }
 
+function IconInstagram(props) {
+  return (
+    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" {...props}>
+      <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.92 4.919-1.265.058-1.644.07-4.849.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0 5.838a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm0 6.596a2.596 2.596 0 1 1 0-5.192 2.596 2.596 0 0 1 0 5.192zm6.406-6.845a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z" />
+    </svg>
+  );
+}
+
 function App() {
   const mainRef = useRef(null);
 
@@ -59,7 +67,8 @@ function App() {
           <a href="#home">HOME</a>
           <a href="#about">ABOUT</a>
           <a href="#team">TEAM</a>
-          <a href="#apps">APPS</a>
+          <a href="#partner">PARTNER</a>
+          <a href="#contact">CONTACT</a>
         </div>
 
         {/* <div className="nav-status">
@@ -286,98 +295,141 @@ function App() {
         </div>
 
       </section>
-        {/* APPS & PROJECTS */}
-      <section className="apps-section" id="apps">
-
-        <div className="apps-top">
-          <span>04</span>
-          <span>APPS & PROJECTS</span>
-        </div>
 
 
-        <div className="apps-header">
+      {/* PARTNER NGO */}
+      <section className="partner-section" id="partner">
 
-          <div>
+        <div className="partner-bg" aria-hidden="true"></div>
 
-            <p className="apps-eyebrow">
-              WHAT WE BUILD
-            </p>
+        <div className="partner-content">
+          <span className="reveal">04 — PARTNER NGO</span>
 
-            <h2>
-              OUR
-              <br />
-              <span>APP.</span>
-            </h2>
+          <h2 className="reveal">
+            IN PARTNERSHIP
+            <br />
+            WITH {teamData.partner.name}.
+          </h2>
 
+          <p className="about-lead reveal">{teamData.partner.tagline}</p>
+
+          <p className="about-text reveal">{teamData.partner.body}</p>
+
+          <div className="partner-programs reveal">
+            {teamData.partner.programs.map((program) => (
+              <span className="program-chip" key={program}>
+                {program}
+              </span>
+            ))}
           </div>
 
+          <div className="partner-footer reveal">
+            <div className="about-stats">
+              <div className="stat">
+                <span className="stat-value">{teamData.partner.founded}</span>
+                <span className="stat-label">Founded</span>
+              </div>
 
-          <p className="apps-intro">
-            Explore applications and digital experiences
-            created by the members of GROUP.18.
-          </p>
+              <div className="stat">
+                <span className="stat-value">{teamData.partner.location}</span>
+                <span className="stat-label">Based In</span>
+              </div>
 
+              <div className="stat">
+                <span className="stat-value">{teamData.partner.programs.length}</span>
+                <span className="stat-label">Focus Areas</span>
+              </div>
+            </div>
+
+            <a
+              href={teamData.partner.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hero-button partner-button"
+            >
+              VISIT SPARKLING WINGS
+              <span>↗</span>
+            </a>
+          </div>
         </div>
 
+      </section>
 
-        {/* EXAMSAATHI */}
 
-        <div className="apps-list">
+      {/* CONTACT */}
+      <section className="contact-section" id="contact">
 
-          <article className="app-card">
+        <div className="contact-bg" aria-hidden="true"></div>
 
-            <div className="app-number">
-              01
+        <div className="contact-content">
+          <span className="reveal">05 — CONTACT</span>
+
+          <h2 className="reveal">
+            LET'S BUILD
+            <br />
+            SOMETHING TOGETHER.
+          </h2>
+
+          <p className="about-text reveal">
+            Got an idea, a project, or just want to say hi?
+            GROUP.18 is always up for a conversation.
+          </p>
+
+          {teamData.contact.email ? (
+            <a
+              href={`mailto:${teamData.contact.email}`}
+              className="contact-email reveal"
+            >
+              {teamData.contact.email}
+            </a>
+          ) : (
+            <div className="contact-email contact-email-placeholder reveal">
+              EMAIL COMING SOON
             </div>
+          )}
 
+          <div className="contact-footer reveal">
+            <span className="contact-footer-note">GROUP.18 © 2026</span>
 
-            <div className="app-content">
+            {(teamData.contact.github ||
+              teamData.contact.instagram ||
+              teamData.contact.linkedin) && (
+              <div className="team-socials contact-socials">
+                {teamData.contact.github && (
+                  <a
+                    href={teamData.contact.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GROUP.18 on GitHub"
+                  >
+                    <IconGithub />
+                  </a>
+                )}
 
-              <div className="app-meta">
-                EDUCATION APPLICATION
+                {teamData.contact.instagram && (
+                  <a
+                    href={teamData.contact.instagram}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GROUP.18 on Instagram"
+                  >
+                    <IconInstagram />
+                  </a>
+                )}
+
+                {teamData.contact.linkedin && (
+                  <a
+                    href={teamData.contact.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GROUP.18 on LinkedIn"
+                  >
+                    <IconLinkedin />
+                  </a>
+                )}
               </div>
-
-              <h3>
-                EXAMSAATHI
-              </h3>
-
-              <p>
-                A student-focused application built to
-                make exam preparation simpler, smarter
-                and more accessible.
-              </p>
-
-
-              <div className="app-buttons">
-
-                <a
-                  href="#"
-                  className="app-button"
-                >
-                  VIEW APP ↗
-                </a>
-
-
-                <a
-                   href="/apps/ExamSaathi.apk"
-                   className="app-button app-button-outline"
-                   download="ExamSaathi.apk"
-            
-                >
-                  DOWNLOAD ↓
-                </a>
-
-              </div>
-
-            </div>
-
-
-            <div className="app-status">
-              AVAILABLE
-            </div>
-
-          </article>
-
+            )}
+          </div>
         </div>
 
       </section>

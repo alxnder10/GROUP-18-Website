@@ -138,5 +138,27 @@
         "linkedin": ""
       }
     }
-  ]
+  ],
+  "partner": {
+    "name": "SPARKLING WINGS",
+    "founder": "Pavan Keshari",
+    "founded": "2017",
+    "location": "Mumbai, India",
+    "tagline": "Every child deserves a chance to learn.",
+    "mission": "To bridge the educational gap for underprivileged children and lead community-driven environmental initiatives that protect our natural resources and urban spaces.",
+    "body": "Founded in 2017 by Pavan Keshari, Sparkling Wings is a Mumbai-based nonprofit working across education, women empowerment, animal welfare, environmental protection and poverty alleviation. GROUP.18 is proud to stand behind their work as a community partner.",
+    "programs": [
+      "Education",
+      "Women Empowerment",
+      "Animal Welfare",
+      "Environment Protection",
+      "Poverty Alleviation"
+    ],
+    "url": "https://sparklingwingsngo.org/"
+  },
+  "contact": {
+    "email": "",
+    "instagram": "",
+    "github": ""
+  }
 }
