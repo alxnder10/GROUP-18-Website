@@ -303,6 +303,15 @@ function App() {
         <div className="partner-bg" aria-hidden="true"></div>
 
         <div className="partner-content">
+          {teamData.partner.logo && (
+            <div className="partner-logo-wrap reveal">
+              <img
+                src={teamData.partner.logo}
+                alt={`${teamData.partner.name} logo`}
+              />
+            </div>
+          )}
+
           <span className="reveal">04 — PARTNER NGO</span>
 
           <h2 className="reveal">
