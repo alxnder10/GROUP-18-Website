@@ -160,14 +160,14 @@
   "roadmap": {
     "done": [
       {
-        "title": "GROUP.18 Website",
-        "note": "Live and shipped"
+        "title": "NGO Website",
+        "note": "Built for our partner, Sparkling Wings"
       }
     ],
     "inProgress": [
       {
-        "title": "NGO Website",
-        "note": "Building the site for our partner, Sparkling Wings"
+        "title": "GROUP.18 Website",
+        "note": "Updating the website"
       }
     ],
     "planned": [
